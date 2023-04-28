@@ -97,18 +97,14 @@ export default function QuizLayout() {
 
 const quizContents = [
   {
-    step: 1,
-    name: '1 STEP ',
     keys: ['Name', 'Age', 'Gender'],
   },
   {
-    step: 2,
-    name: 'STEP 2',
     keys: ['Keywords'],
   },
-  { name: 'STEP 3', keys: ['Place'] },
-  { name: 'STEP 4', keys: ['Color'] },
-  { name: 'STEP 5', keys: ['Texture'] },
-  { name: 'STEP 6', keys: ['Stuff'] },
-  { name: 'STEP 7', keys: ['Style'] },
+  { keys: ['Place'] },
+  { keys: ['Color'] },
+  { keys: ['Texture'] },
+  { keys: ['Stuff'] },
+  { keys: ['Style'] },
 ];
