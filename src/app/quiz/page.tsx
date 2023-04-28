@@ -21,7 +21,6 @@ export default function QuizLayout() {
   const [step, setStep] = useState(0);
   const [keysIdx, setKeyIdx] = useState(0);
   const { keys } = quizContents[step];
-
   const [nickname, setNickname] = useState('');
   const [gender, setGender] = useState('');
 
